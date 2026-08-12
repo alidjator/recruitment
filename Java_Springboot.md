@@ -109,7 +109,7 @@ Implementasikan pengelolaan database menggunakan:
 * Efficient database queries.
 
 
-* **(Medium Add-on):** Rancang skema relasi *One-to-Many* atau *Many-to-Many* yang tepat antara entitas `User` dan `Role`.
+* ** Rancang skema relasi *One-to-Many* atau *Many-to-Many* yang tepat antara entitas `User` dan `Role`.
 
 **5. Security & Authorization (Medium Add-on)**
 
@@ -169,5 +169,5 @@ Setelah pengerjaan selesai, kandidat diminta untuk:
 * e. Informasi endpoint REST API yang telah dibuat (jika ada).
 
 
-* **(Medium Add-on) f.** Menyertakan file *Postman Collection* (`.json`) yang mencakup semua endpoint yang telah dikembangkan lengkap beserta payload data untuk mempermudah reviewer melakukan testing API.
+* f.** Menyertakan file *Postman Collection* (`.json`) yang mencakup semua endpoint yang telah dikembangkan lengkap beserta payload data untuk mempermudah reviewer melakukan testing API.
 
