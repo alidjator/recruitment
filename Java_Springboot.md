@@ -90,7 +90,7 @@ Implementasikan request validation menggunakan Spring Validation / Jakarta Bean 
 * f. Password harus terdiri dari Huruf, angka, Huruf Kapital dan Karakter Spesial.
 
 
-* Buatlah *Global Exception Handler* (`@ControllerAdvice`) untuk menangkap error validasi dan mereturn *Response JSON* dengan format baku (misal: memunculkan `message`, `status`, dan detail error validasi).
+** Buatlah ** *Global Exception Handler* (`@ControllerAdvice`) untuk menangkap error validasi dan mereturn *Response JSON* dengan format baku (misal: memunculkan `message`, `status`, dan detail error validasi).
 
 **3. RESTful API**
 Buat dan implementasikan RESTful API endpoints yang dibutuhkan untuk menjalankan fungsi pada aplikasi menggunakan Spring MVC/REST Controller.
