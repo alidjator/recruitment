@@ -169,5 +169,5 @@ Setelah pengerjaan selesai, kandidat diminta untuk:
 * e. Informasi endpoint REST API yang telah dibuat (jika ada).
 
 
-* f. Menyertakan file *Postman Collection* (`.json`) yang mencakup semua endpoint yang telah dikembangkan lengkap beserta payload data untuk mempermudah reviewer melakukan testing API.
+* f. Menyertakan file *Postman Collection* (`.json`) yang mencakup semua endpoint yang telah dikembangkan lengkap beserta payload data nya.
 
