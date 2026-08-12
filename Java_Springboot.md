@@ -45,7 +45,7 @@
 
 ### **Tugas**
 
-Buat aplikasi **User Management berbasis RESTful API** (Pengembangan tingkat lanjut) yang mencakup fitur:
+Buat aplikasi **User Management berbasis RESTful API** yang mencakup fitur:
 
 * User & Role Management (Role: ADMIN, USER)
 * Login (dengan JWT Authentication)
