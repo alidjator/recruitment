@@ -66,8 +66,8 @@ Implementasikan fungsi Create, Read, Update, dan Delete (CRUD) untuk User Manage
 * MVC Architecture.
 
 
-* **(Medium Add-on):** Gunakan *Data Transfer Object (DTO)* untuk memisahkan *Entity* database dengan objek *response/request*.
-* **(Medium Add-on):** Implementasikan fitur *Pagination* dan *Sorting* pada saat menampilkan daftar User, serta gunakan skema *Soft Delete* (data tidak benar-benar dihapus dari database, melainkan menggunakan flag seperti `is_deleted`).
+* Gunakan *Data Transfer Object (DTO)* untuk memisahkan *Entity* database dengan objek *response/request*.
+* Implementasikan fitur *Pagination* dan *Sorting* pada saat menampilkan daftar User, serta gunakan skema *Soft Delete* (data tidak benar-benar dihapus dari database, melainkan menggunakan flag seperti `is_deleted`).
 
 **2. Validation & Error Handling**
 Implementasikan request validation menggunakan Spring Validation / Jakarta Bean Validation dengan format sebagai berikut:
@@ -109,7 +109,7 @@ Implementasikan pengelolaan database menggunakan:
 * Efficient database queries.
 
 
-* ** Rancang skema relasi *One-to-Many* atau *Many-to-Many* yang tepat antara entitas `User` dan `Role`.
+* Rancang skema relasi *One-to-Many* atau *Many-to-Many* yang tepat antara entitas `User` dan `Role`.
 
 **5. Security & Authorization (Medium Add-on)**
 
