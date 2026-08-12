@@ -90,12 +90,12 @@ Implementasikan request validation menggunakan Spring Validation / Jakarta Bean 
 * f. Password harus terdiri dari Huruf, angka, Huruf Kapital dan Karakter Spesial.
 
 
-* **(Medium Add-on):** Buatlah *Global Exception Handler* (`@ControllerAdvice`) untuk menangkap error validasi dan mereturn *Response JSON* dengan format baku (misal: memunculkan `message`, `status`, dan detail error validasi).
+* Buatlah *Global Exception Handler* (`@ControllerAdvice`) untuk menangkap error validasi dan mereturn *Response JSON* dengan format baku (misal: memunculkan `message`, `status`, dan detail error validasi).
 
 **3. RESTful API**
 Buat dan implementasikan RESTful API endpoints yang dibutuhkan untuk menjalankan fungsi pada aplikasi menggunakan Spring MVC/REST Controller.
 
-* **(Medium Add-on):** Pastikan pengembalian *HTTP Status Code* sesuai standar (misal: 200 OK, 201 Created, 400 Bad Request, 401 Unauthorized, 403 Forbidden). Seluruh response harus dibungkus dalam *Generic Response Wrapper* format JSON.
+* Pastikan pengembalian *HTTP Status Code* sesuai standar (misal: 200 OK, 201 Created, 400 Bad Request, 401 Unauthorized, 403 Forbidden). Seluruh response harus dibungkus dalam *Generic Response Wrapper* format JSON.
 
 **4. Database Interactions**
 Implementasikan pengelolaan database menggunakan:
@@ -169,5 +169,5 @@ Setelah pengerjaan selesai, kandidat diminta untuk:
 * e. Informasi endpoint REST API yang telah dibuat (jika ada).
 
 
-* f.** Menyertakan file *Postman Collection* (`.json`) yang mencakup semua endpoint yang telah dikembangkan lengkap beserta payload data untuk mempermudah reviewer melakukan testing API.
+* f. Menyertakan file *Postman Collection* (`.json`) yang mencakup semua endpoint yang telah dikembangkan lengkap beserta payload data untuk mempermudah reviewer melakukan testing API.
 
